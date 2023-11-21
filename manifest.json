@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Sort By Reviews for Amazon and Flipkart",
+  "description": "Sort By Reviews for Amazon and Flipkart allows users to sort Amazon (and Flipkart) search results by most reviewed products",
+  "version": "1.1",
+  "author": "Kuldeep Bishnoi kuldeepbishnoi.2001@gmail.com",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.flipkart.com/*"],
+      "js": ["scripts/flipkart-content.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "*://*.amazon.com/*",
+        "*://*.amazon.co.uk/*",
+        "*://*.amazon.de/*",
+        "*://*.amazon.com.au/*",
+        "*://*.amazon.de/*",
+        "*://*.amazon.fr/*",
+        "*://*.amazon.it/*",
+        "*://*.amazon.es/*",
+        "*://*.amazon.ca/*",
+        "*://*.amazon.in/*",
+        "*://*.amazon.cn/*",
+        "*://*.amazon.nl/*",
+        "*://*.amazon.co.jp/*"
+      ],
+      "js": ["scripts/amazon-content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
