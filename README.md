@@ -6,13 +6,13 @@ Sort By Reviews for Amazon and Flipkart allows users to easily and quickly sort 
 
 
 ℹ️ **How do you use the extension?**
-- download the extension from [Sort By Reviews for Amazon and Flipkart](https://chromewebstore.google.com/detail/sort-by-review-count/maplakdnllhnmchlppnpbnilnahlllcb?hl=en-GB)
+- Download the extension from Chrome Web Store [Link](https://chromewebstore.google.com/detail/sort-by-review-count/maplakdnllhnmchlppnpbnilnahlllcb?hl=en-GB)
 - Search for a product on Amazon (or Flipkart)
 - Click on "Sort by Rating Count" on Amazon (and "Rating Count" on flipkart.com)
 - Enjoy!
 
 ## 🕷️ Report Bug
-- Create New issue
+- Create a New issue
 - Recommended: Add the URL for which you faced an issue
 - Recommended: Describe the issue
 - Optional: Add screenshots
