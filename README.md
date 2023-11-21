@@ -6,9 +6,9 @@ Sort By Reviews for Amazon and Flipkart allows users to easily and quickly sort 
 If you like the extension, leave us a review! (Hopefully 5 stars!). If you don't like the extension or it doesn't work, drop us an email, and we'll try and resolve the problem!
 
 ℹ️ **How do you use the extension?**
-1️⃣ Search for a product on Amazon (or Flipkart)
-2️⃣ Click on "Sort by Rating Count" on Amazon (and "Rating Count" on flipkart.com)
-3️⃣ Enjoy!
+- Search for a product on Amazon (or Flipkart)
+- Click on "Sort by Rating Count" on Amazon (and "Rating Count" on flipkart.com)
+- Enjoy!
 
 🆓 This extension will always be free! 🙏
 
