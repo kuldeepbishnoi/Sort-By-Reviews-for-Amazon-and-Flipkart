@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slider Extension Popup</title>
+  <style>
+    html{
+      width: 250px;
+      height: 100px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h2 {
+      color: #333;
+      margin-top: 20px;
+    }
+    #slider {
+      width: 80%;
+      margin: 20px auto;
+    }
+    #sliderValue {
+      font-size: 24px;
+      color: #007bff;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h2>No of Page to Sort: <span id="sliderValue">0</span></h2>
+  <input type="range" id="slider" min="1" max="100" step="1" value="3">
+</body>
+</html>
